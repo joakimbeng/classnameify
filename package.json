@@ -1,0 +1,34 @@
+{
+  "name": "classnameify",
+  "version": "0.1.0",
+  "description": "Generate classname selectors for CSS components, works splendid together with e.g. React",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "ava"
+  },
+  "keywords": [
+    "classname",
+    "css",
+    "react",
+    "selectors",
+    "generate",
+    "large scale",
+    "scaling"
+  ],
+  "author": "Joakim Carlstein <joakim@klei.se>",
+  "repository": "joakimbeng/classnameify",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.1.0",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "space": true
+  },
+  "dependencies": {
+    "assign-all": "^1.0.0",
+    "cngen": "^1.0.0"
+  }
+}
