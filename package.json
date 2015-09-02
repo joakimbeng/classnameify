@@ -1,6 +1,6 @@
 {
   "name": "classnameify",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Generate classname selectors for CSS components, works splendid together with e.g. React",
   "main": "src/index.js",
   "scripts": {
